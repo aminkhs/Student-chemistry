@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        UhSapBMb1XLNowX2EKbOSFLihG5p0x+x/9k=
+</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>هلیم (Helium) با نشان شیمیایی He یک عنصر شیمیایی با عدد اتمی ۲ و
+ وزن اتمی ۴٫۰۰۲۶۰۲ است. این عنصر، بی بو، بی رنگ، بی مزه، غیر
+سمّی، از دیدگاه شیمیایی بی اثر و تک اتمی است که در جدول تناوبی
+ استاندارد در بالای گروه گازهای نجیب جا دارد. دمای ذوب و جوش این 
+ماده در میان دیگر عنصرها بسیار پایین است به همین دلیل در دمای اتاق 
+و البته در بیشتر موارد به گازی است مگر شرایط بسیار ویژه‌ای بر آن
+ گذرانده شود.
+
+هلیم دومین عنصر سبک جهان است و از دید فراوانی در جایگاه دوم است.
+ نزدیک به ۲۴٪ از جرم گیتی از آن این عنصر است که این مقدار بیش از ۱۲ 
+برابر ترکیب تمام عنصرهای سنگین است. هلیم به همان صورت که در
+ خورشید و هرمز یافت می‌شود در جهان پیدا می‌شود و این به دلیل 
+انرژی بستگی (به ازای هر هسته) بسیار بالای هلیم-۴ نسبت به سه
+ عنصر دیگر پس از آن در جدول تناوبی است. بیشتر هلیم موجود 
+در گیتی، هلیم-۴ است و گمان آن می‌رود که در جریان مه بانگ پدید آمده 
+باشد. امروزه با کمک واکنش‌های همجوشی هسته‌ای در ستاره‌ها،
+ گونه‌های تازه‌ای از هلیم ساخته شده‌است.
+
+واژهٔ هلیوم از واژهٔ یونانی هلیوس گرفته شده به معنای «ایزد خورشید»
+ گرفته شده‌است. زمانی که هنوز هلیم شناخته نشده بود، ستاره شناس 
+فرانسوی ژول ژانسن در جریان خورشیدگرفتگی سال ۱۸۶۸ برای 
+نخستین بار در طیف‌سنجی نور خورشید، خط زرد طیفی هلیم را دید. 
+برای همین هنگامی که از نخستین کسانی که هلیم را شناسایی
+ کردند یاد می‌شود نام ژول ژانسن در کنار نام نورمن لاکیر جای 
+می‌گیرد. در جریان همان خورشیدگرفتگی، نورمن لاکیر پیشنهاد کرد
+ این خط زرد می‌تواند به دلیل یک عنصر تازه باشد. دو شیمیدان
+ سوئدی با نام‌های پر تئودر کلیو و نیلز آبراهام لانگلت در سال ۱۸۹۵ 
+این عنصر را شناسایی و اعلام کردند. آن‌ها هلیم را از سنگ کلویت
+ که معدن اورانیم است بدست آوردند. در سال ۱۹۰۳ منابع بزرگ 
+هلیم در میدان‌های گازی ایالات متحده پیدا شد که یکی از بزرگترین
+ منابع این گاز است.
+
+یکی از کاربردهای مهم هلیم در سرماشناسی است. نزدیک به
+ یک-چهارم هلیم تولیدی در این زمینه بکار می‌رود. ویژگی خنک
+ سازی هلیم بویژه در خنک کردن آهن‌رباهای ابررسانا مهم است.
+ این آهن رباها به صورت تجاری در اسکنرهای ام آر آی کاربرد
+ دارد. کاربرد صنعتی دیگر هلیم در فشار وارد کردن برای نمونه
+ به عنوان گاز تخلیه کننده‌است. همچنین به عنوان هوای محافظ
+ در جوشکاری با قوس الکتریکی، در فرایندهایی مانند کشت 
+بلورها در ساخت قرص‌های سیلیسیم از این گاز بهره برده 
+می‌شود. نزدیک به نیمی از هلیم تولیدی در این زمینه کاربرد
+ دارد.
+
+یکی دیگر از کاربردهای شناخته شدهٔ هلیم در ویژگی بالابری 
+در بالون‌ها و کشتی‌های هوایی است. تنفس حجم اندکی از گاز
+ هلیم می‌تواند برای چندی در کیفیت و زنگ صدای انسان تاثیر
+ بگذارد. این اثرگذاری تنها از آن هلیم نیست بلکه هر گازی که
+ چگالی متفاوتی با هوا داشته باشد از این ویژگی برخوردار
+ است. در پژوهش‌های دانشگاهی رفتار دو فاز سیال هلیم-۴ (هلیم
+I و هلیمII) در بحث‌های مربوط به مکانیک کوانتوم و یا پژوهش 
+دربارهٔ پدیده‌هایی مانند ابررسانایی که با دماهای نزدیک به صفر
+ مطلق در ماده کار می‌کند، مهم است.
+
+هلیم در هواکُرهٔ زمین بسیار کمیاب است (نزدیک به ۰٫۰۰۰۵۲٪ 
+حجمی) بیشتر هلیومی که در خاک زمین پیدا می‌شود در اثر واپاشی
+ هسته‌ای طبیعی در عنصرهای سنگین پرتوزا مانند اورانیم و توریم
+ پدید آمده‌است؛ به این ترتیب که در اثر واپاشی، ذره‌های بتا از
+ عنصر تابیده شده و هستهٔ هلیم-۴ بدست آمده‌است. هلیم بدست آمده
+ از واپاشی به آسانی به صورت فشرده با درصدی نزدیک به ۷٪ 
+حجمی، در دام گاز طبیعی گرفتار می‌شود. سپس می توان با
+ روش‌های صنعتی و به صورت تجاری با کاهش دمای آمیختهٔ هلیم و
+ گاز طبیعی، هلیم را از دیگر گازها جدا ساخت. این روش تقطیر جزء 
+به جزء نام دارد.
+
+هیلم دارای ویژگی‌های یکتایی است که در بسیاری جاها به آن نیاز است.
+ این ویژگی‌های هلیم عبارتند از: نقطهٔ جوش، چگالی و حل شوندگی پایین،
+ رسانش گرمایی بالا و واکنش ناپذیر بودن آن. از سال ۲۰۰۸ میزان تولید
+ هلیم، ۳۲ میلیون کیلوگرم یا ۱۹۳ میلیون مترمکعب در سال بوده‌است که 
+بیشترین کاربرد آن (نزدیک به ۲۲ درصد کل در سال ۲۰۰۸) در کاربردهای
+ سردکننده بویژه در آهن‌ربای ابررسانا‏ در دستگاه‌های ام‌آرآی است. دیگر
+ کاربردهای مهم آن (۷۸ درصد کل در سال ۱۹۹۶) برای ایجاد فشار، هوای 
+پیرامونی کنترل شده و جوشکاری بوده‌است.</value>
+  </data>
+</root>

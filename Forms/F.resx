@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>فلوئور عنصر شیمیایی است که در جدول تناوبی با نشان F و عدد اتمی ۹ 
+یافت می‌شود. این عنصرگازی یک ظرفیتی، هالوژن، به رنگ زرد کم رنگ و
+ سمی می‌باشد وازتمامی عناصر، الکترونگاتیو تر و واکنش‌پذیر تر است.
+ نوع خالص آن بسیار خطرناک و درصورت تماس با پوست، سوختگیهای
+ شیمیائی شدید ایجاد می‌کند.
+فلوئور خالص (گاز) زردرنگ و فرسایشگری است که عامل اکسید کننده‌ای
+ قوی می‌باشد.این گازاز تمامی عناصر الکترونگاتیوتر و واکنش پذیرتر 
+است و با بیشتر عناصر دیگر از جمله گازهای بی اثر، زنون و رادون تولید
+ ترکیب ایجاد می‌کند. فلوئور حتی در تاریکی و شرایط سرد با هیدروژن
+ بصورت انفجاری واکنش می‌کند.در فوران گاز فلوئور، شیشه، فلزات، آب
+ ومواد دیگر بصورت شعله‌های درخشان می‌سوزند.این گاز همیشه بصورت 
+ترکیب وجود داشته و چنین تمایلی را با سایر عناصر مخصوصاً سیلیسیوم 
+دارد که نه می‌توان آن را در ظروف شیشه‌ای تهیه و نه در آنها نگهداری 
+کرد . فلوئور در محلولهای آبی عموماً به شکل یون فلورید F- دیده می‌شود.
+حالتهای دیگر آن کمپلکسهای فلوئور، مانند -[FeF۴] یا +H۲F هستند. 
+فلورایدها ترکیباتی هستند که در آنها فلوئور با بعضی از بقایای مثبت 
+بار شده، ترکیب می‌شود و اغلب آنها یوندار می‌باشند.
+
+فلوئور در تولید پلاستیکهای کم اصطکاک از قبیل تفلون و نیز در هالونها
+ مانند فریون کاربرد دارد.سایر کاربردهای آن عبارت‌اند از:
+اسید هیدروفلوریک (فرمول شیمیایی HF) برای حکاکی روی شیشه 
+در لامپ و محصولات دیگر بکار می‌رود.
+از فلوئور تک اتمی در تولید نیمه هادی به منظور Plasma ashing
+ استفاده می‌گردد.
+فلوئور به همراه ترکیباتش در تولید اورانیوم (ازهگزا فلوراید) و بیش از 
+صد نوع ماده شیمیایی فلوئوردار تجاری از جمله تعداد زیادی از
+ پلاستیکهای مقاوم در برابر گرما، کاربرد دارد.
+فلوئوروکلروهیدروکربن (Fluorochlorohydrocarbons) در تهویه و
+ در سردسازی کاربرد وسیعی دارند. استفاده از کلروفلوئوروکربنها
+(Chlorofluorocarbons) در این موارد ممنوع شده چون آنها مشکوک
+ به نازک کردن لایه اوزون می‌باشند. هگزافلوئورید گوگرد 
+(Sulfurhexafluoride) گازی بسیار راکد و غیر سمی است. این گروه
+ از ترکیبات گازهای گلخانه‌ای قوی هستند.
+آلومینیات هگزافلوئورید پتاسیم، – اصطلاحاً Cryolite یا یخسنگ نامیده 
+می‌شود- در الکترولیز آلومینیوم مورد استفاده قرار می‌گیرد.
+از فلوئورید سدیم به‌عنوان یک حشره کش بخصوص بر علیه سوسکها
+ استفاده می‌شود.
+بعضی دیگر از فلوئوریدها برای جلوگیری از پوسیدگی دندان به خمیر
+ دندان و(تا حدی بحث انگیز) به منابع آب شهری افزوده می‌شود. در 
+دندانپزشکی ترکیبات حاوی فلوراید به صورت دهانشویه یا وارنیش به
+ کار می رود. فلوراید به دو طریق از پوسیدگی دندانها جلوگیری می‌کند:
+ فلوراید در استخوانها و دندانهای در حال رشد کودکان تجمع می‌کند و
+ به سفت شدن مینای دندانها قبل از پیدایش آنها کمک می‌نماید. همچنین
+ در سفت شدن مینای دندان بزرگسالان مؤثر است.
+بعضی از محققین امکان استفاده از گاز فلوئور خالص را به‌عنوان سوخت
+ موشک بررسی کرده‌اند، چون این گاز دارای ضربه مخصوص بالائی
+ می‌باشد.
+
+Georigius Agricola در سال۱۵۲۹ فلوئور را (از واژه لاتین fluere 
+به معنی روانی و شارش یا دگرگونی پیاپی) به شکل فلورسپار و به
+ خاطر کاربرد آن به‌عنوان یک گدازآور (ماده‌ای که برای بهبود جوش
+کاری فلزات یا کانیها بکار می‌رود) شناسایی کرد. Schwandhard 
+در سال ۱۶۷۰ متوجه شد سطح شیشه در صورتیکه در معرض 
+فلورسپار همراه با اسید قرار گیرد نقشهایی حک می‌گردد.. کارل ویلهلم
+ شیله و بسیاری از محققان بعد از او از جمله هامفری دیوی، ژوزف 
+لویی گیلوساک, [[آنتوان لاووازیه و Louis Thenard همگی با اسید هیدرو
+فلوئوریک به آزمایش پرداختند.(بعضی از آزمایشها به یک فاجعه ختم شد).
+این عنصر سالهای زیادی بعد از آن بدست نیامد چون هنگامیکه آن را از
+ یکی از ترکیباتش جدا می‌کردند، فوراً به مواد باقی مانده آن ترکیب حمله
+ می‌کرد.سرانجام بعد از تقریباً ۷۴ سال تلاش مداوم، هانری مواسان در سال
+ ۱۸۸۶ موفق به تهیه فلورین شد.
+اولین تولید تجاری فلوئور در پروژه بمب اتمی پروژه Manhattan در جنگ
+ جهانی دوم بود که ازترکیب هگزا فلوئورید اورانیم (UF۶) برای جداسازی
+ ایزوتوپهای اورانیوم استفاده شد.از این فرآیند هنوز هم در تجهیزات نیروی
+ هسته‌ای کاربرد دارد.</value>
+  </data>
+</root>
