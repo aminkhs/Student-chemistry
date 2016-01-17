@@ -144,3 +144,5 @@ C:\Users\amin\Desktop\RAYA SOFT\App\Student chemistry\Student chemistry\obj\x86\
 C:\Users\amin\Desktop\RAYA SOFT\App\Student chemistry\Student chemistry\obj\x86\Beta\Student chemistry.application
 C:\Users\amin\Desktop\RAYA SOFT\App\Student chemistry\Student chemistry\obj\x86\Beta\Student chemistry.exe
 C:\Users\Amin\Desktop\RAYA SOFT\App\Student chemistry\Student chemistry\obj\x86\Beta\Student_chemistry.Forms.MoulkoulMaker.resources
+C:\Users\Amin\OneDrive\RAYA SOFT\App\Student chemistry\Student chemistry\bin\x86\Beta\Student chemistry.exe.config
+C:\Users\Amin\OneDrive\RAYA SOFT\App\Student chemistry\Student chemistry\obj\x86\Beta\Student chemistry.exe
